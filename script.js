@@ -10,7 +10,7 @@ menu.addEventListener("click", () => {
   tmline.from("ul li", {
     x: -100,
     opacity: 0,
-    duration: 1,
+    duration:0.6,
     stagger: 1,
   });
   tmline.from(".ri-arrow-left-line", {
